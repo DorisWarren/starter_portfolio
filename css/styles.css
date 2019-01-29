@@ -24,86 +24,86 @@ img{
 }
 
 .nav {
-    position: relative;
-    width: auto;
-    display: inline-block;
-    border: none;
-    float: right;
-    z-index: 99999;
+  position: relative;
+  width: auto;
+  display: inline-block;
+  border: none;
+  float: right;
+  z-index: 99999;
 }
 .navbar-fixed-top {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 .navbar-brand {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 @media (max-width: 768px) {
-    .navbar-brand {
-        padding-left: 0px;
-    }
+  .navbar-brand {
+  padding-left: 0px;
 }
+
 .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
+  background-color: transparent;
+  border-color: transparent;
 }
 .navbar-default.color-fill {
-    background-color: #fff;
-    border-color: transparent;
+  background-color: #fff;
+  border-color: transparent;
 }
 .btn-nav {
-    background: transparent;
-    border: none;
-    padding: 15px;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
-    cursor: pointer;
-    z-index: 99999;
+  background: transparent;
+  border: none;
+  padding: 15px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  cursor: pointer;
+  z-index: 99999;
 }
 
 .btn-nav:focus {
-    outline: 0;
+  outline: 0;
 }
 .icon-bar {
-    display: block;
-    margin: 6px 0;
-    width: 30px;
-    height: 3px;
-    background-color: #222;
+  display: block;
+  margin: 6px 0;
+  width: 30px;
+  height: 3px;
+  background-color: #222;
 }
 .icon-bar.inverted {
-    background-color: #black;
+  background-color: #black;
 }
 
 .opaque {
-    background-color: #fff!important;
+  background-color: #fff!important;
 }
 .btn-nav:hover .icon-bar {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    background-color: #555;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  background-color: #555;
 }
 .nav-content {
-    position: fixed;
-    top: -100%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(255, 255, 255, 1);
-    display: block;
-    height: 100%;
-    z-index: 9;
+  position: fixed;
+  top: -100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 1);
+  display: block;
+  height: 100%;
+  z-index: 9;
 }
 .nav-list {
-    list-style: initial;
-    padding: 0;
-    position: relative;
+  list-style: initial;
+  padding: 0;
+  position: relative;
 }
 
 span.emotion {
